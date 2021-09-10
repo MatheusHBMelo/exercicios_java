@@ -3,12 +3,13 @@
 
 import java.util.Scanner;
 
-public class Main {
+public class Main
+{
 	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
-
-		int n1, n2, n3, n4, dif;
-
+	    Scanner sc = new Scanner(System.in);
+	    
+	    int n1, n2, n3, n4, dif;
+	    
 		System.out.println("Digite o primeiro número:");
 		n1 = sc.nextInt();
 		sc.nextLine();
@@ -22,9 +23,9 @@ public class Main {
 		n4 = sc.nextInt();
 		sc.nextLine();
 		sc.close();
-
+		
 		dif = (n1 * n2 - n3 * n4);
-
+		
 		System.out.printf("Diferença: %d", dif);
 	}
 }
